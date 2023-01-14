@@ -1,5 +1,7 @@
 package lang.print.gaps.task2;
 
+import static java.lang.System.out;
+
 public class CopiedNames {
     public static void main(String[] args) {
         int variable2 = 0;
@@ -10,6 +12,6 @@ public class CopiedNames {
         int variablesTwo = 5000;
         int variables = 7000;
         int value = 90000;
-        System.out.println(variable2+variable4+value6+variable8+valueTwo+variablesTwo+variables+value);
+        out.println(variable2+variable4+value6+variable8+valueTwo+variablesTwo+variables+value);
     }
 }

@@ -1,5 +1,7 @@
 package lang.print.gaps.task2;
 
+import static java.lang.System.*;
+
 public class NamingConvention {
     public static void main(String[] args) {
         int variable = 10;
@@ -11,6 +13,6 @@ public class NamingConvention {
         int variableSix = 6;
         int variableSeven = 7;
         int variableEight = 8;
-        System.out.println(variable+variableTwo+variableThree+variableOne+VARIABLE_FOUR+VARIABLE_FIVE+variableSix+variableSeven+variableEight);
+        out.println(variable+variableTwo+variableThree+variableOne+VARIABLE_FOUR+VARIABLE_FIVE+variableSix+variableSeven+variableEight);
     }
 }

@@ -1,5 +1,7 @@
 package lang.print.gaps.task2;
 
+import static java.lang.System.out;
+
 public class JavaVariableNames {
     public static void main(String[] args) {
         int morrow = 0;
@@ -10,6 +12,6 @@ public class JavaVariableNames {
         int sharp = 100000;
         int star = 1000000;
         int badExample = 1000000;
-        System.out.println(morrow+money+hundred+back+underscore+sharp+star+badExample);
+        out.println(morrow+money+hundred+back+underscore+sharp+star+badExample);
     }
 }
